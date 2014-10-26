@@ -1,0 +1,5 @@
+# Scanner
+* Using a Web form to recieve a serial number from the scanner.
+* Checking for the lenght that is a formal searial number.
+* Concate the searial number into a URL.
+* Then auto redirect the web page to the new URL.

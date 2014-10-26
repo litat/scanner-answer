@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body ng-controller="Scanner as sc">
+    <form ng-submit="sc.setFilePath()">
+        <input ng-model="sc.reference" type="text" autofocus="true" placeholder="reference code" />
+        <input type="submit" ng-hide="true" />
+        <label>{{sc.filePath}}</label>
+    </form>
+
+    <div>
+        <object ng-attr-data="{{sc.filePath}}" type="application/pdf">
+        </object>
+    </div>
+
+</body>
+
+</html>
