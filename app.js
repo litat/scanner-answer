@@ -11,6 +11,5 @@
 	    document.getElementById("ans").focus();
 	    document.getElementById("ref").focus();
         };
-
     });
 })();
