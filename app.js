@@ -8,8 +8,8 @@
         this.setFilePath = function() {
             this.filePath = "ans/" + this.reference + ".pdf";
             this.reference = "";
-	    document.getElementById("ans").focus();
-	    document.getElementById("ref").focus();
+            document.getElementById("ans").focus();
+            document.getElementById("ref").focus();
         };
     });
 })();

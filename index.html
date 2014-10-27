@@ -1,7 +1,7 @@
 <!doctype html>
 <html ng-app="app">
 
-  <head>
+<head>
     <link type="text/css" rel="stylesheet" href="ans.css">
     <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
@@ -10,7 +10,7 @@
 <body ng-controller="Scanner as sc">
     <form ng-submit="sc.setFilePath()">
         <input id="ref" ng-model="sc.reference" type="text" autofocus="true" placeholder="reference code" />
-        <input type="submit"/>
+        <input type="submit" />
         <label>{{sc.filePath}}</label>
     </form>
     <div>
