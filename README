@@ -3,3 +3,10 @@
 * Checking for the lenght that is a formal searial number.
 * Concate the searial number into a URL.
 * Then auto redirect the web page to the new URL.
+
+# Start the server
+* get node installed
+* open 'cmd'
+* cd to this folder
+* type 'node server.js'
+* then the server is running
