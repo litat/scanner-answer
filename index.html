@@ -8,16 +8,14 @@
 
 <body ng-controller="Scanner as sc">
     <form ng-submit="sc.setFilePath()">
-        <input ng-model="sc.reference" type="text" autofocus="true" placeholder="reference code" />
+        <input id="ref" ng-model="sc.reference" type="text" autofocus="true" placeholder="reference code" />
         <input type="submit" ng-hide="true" />
         <label>{{sc.filePath}}</label>
     </form>
-
     <div>
-        <object ng-attr-data="{{sc.filePath}}" type="application/pdf">
+        <object id="ans" ng-attr-data="{{sc.filePath}}" type="application/pdf">
         </object>
     </div>
-
 </body>
 
 </html>
